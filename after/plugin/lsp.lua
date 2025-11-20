@@ -44,6 +44,7 @@ vim.lsp.config('jdtls', {
 
 vim.lsp.config('clangd', {})
 vim.lsp.config('fennel-language-server', {})
+vim.lsp.config('qmlls', {})
 
 for _, server_name in ipairs(language_server_names) do
     vim.lsp.enable(server_name)

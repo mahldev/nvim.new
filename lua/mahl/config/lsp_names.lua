@@ -2,6 +2,7 @@ return {
     'lua-language-server',
     'jdtls',
     'clangd',
-    'fennel-language-server'
+    'fennel-language-server',
+    'qmlls'
 }
 

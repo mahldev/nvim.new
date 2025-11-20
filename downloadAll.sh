@@ -21,6 +21,12 @@ repos=(
   "nvim-tree/nvim-tree.lua"
   "catppuccin/nvim"
   "nvim-tree/nvim-web-devicons"
+  "nvim-telescope/telescope.nvim"
+  "nvim-lua/plenary.nvim"
+  "nvim-telescope/telescope-file-browser.nvim"
+  "nvim-telescope/telescope-fzf-native.nvim"
+  "nvim-treesitter/nvim-treesitter"
+  "nyoom-engineering/oxocarbon.nvim"
 )
 
 for repo in "${repos[@]}"; do
